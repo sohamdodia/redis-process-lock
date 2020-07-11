@@ -8,6 +8,10 @@
   },
   "author": "Soham Dodia",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohamdodia/redis-process-lock"
+  },
   "keywords": [
     "redis",
     "redis-lock",

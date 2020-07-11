@@ -4,7 +4,7 @@ A NPM module that will lock the process.
 
 ## What this does
 
-JavaScript is single threaded, and if there is any requirement for locking some process / resource, it will be complex to do that. But with the help of the Redis, we can achieve it. Since, Redis always works in sync fashion [means only one operation is allowed at a time], we can store the process id with process type in Redis and when some other process / function tries to access it, Redis will give an error. This module can be used for multiple purposes like blocking resource, function, database tables etc. 
+JavaScript is single-threaded, and if there is any requirement for locking some process/resource, it will be complex to do that. But with the help of the Redis, we can achieve it. Since Redis always works in sync fashion (meaning only one operation is allowed at a time), we can store the process id with process type in Redis and when some other process/function tries to access it, Redis will give an error. This module can be used for multiple purposes like blocking resources, function, database tables, etc.
 
 
 ### Installation

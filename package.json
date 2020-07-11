@@ -1,5 +1,5 @@
 {
-  "name": "redis-process-locks",
+  "name": "redis-process-lock",
   "version": "1.0.0",
   "description": "A NPM module that will lock the process.",
   "main": "index.js",

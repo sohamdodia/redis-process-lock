@@ -1,6 +1,6 @@
 # redis-process-lock
 
-A NPM module that will lock the process.
+An NPM module that will lock the process.
 
 ## What this does
 
